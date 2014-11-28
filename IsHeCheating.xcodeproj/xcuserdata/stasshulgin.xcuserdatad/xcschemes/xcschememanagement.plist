@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>IsHeCheating Watch App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>IsHeCheating.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>38620E3E1A2911C800FC089C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>38FC37091A28FAE6008505FA</key>
 		<dict>
 			<key>primary</key>

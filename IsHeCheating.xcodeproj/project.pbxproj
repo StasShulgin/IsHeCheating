@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38620E2D1A2911C800FC089C /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38620E2C1A2911C800FC089C /* WatchKit.framework */; };
+		38620E341A2911C800FC089C /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38620E331A2911C800FC089C /* InterfaceController.m */; };
+		38620E371A2911C800FC089C /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38620E361A2911C800FC089C /* NotificationController.m */; };
+		38620E3A1A2911C800FC089C /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38620E391A2911C800FC089C /* GlanceController.m */; };
+		38620E3C1A2911C800FC089C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38620E3B1A2911C800FC089C /* Images.xcassets */; };
+		38620E401A2911C800FC089C /* IsHeCheating Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 38620E3F1A2911C800FC089C /* IsHeCheating Watch App.app */; };
+		38620E471A2911C800FC089C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38620E461A2911C800FC089C /* Interface.storyboard */; };
+		38620E491A2911C800FC089C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38620E481A2911C800FC089C /* Images.xcassets */; };
+		38620E4C1A2911C800FC089C /* IsHeCheating WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 38620E2A1A2911C800FC089C /* IsHeCheating WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		38FC37101A28FAE6008505FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC370F1A28FAE6008505FA /* main.m */; };
 		38FC37131A28FAE6008505FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC37121A28FAE6008505FA /* AppDelegate.m */; };
 		38FC37161A28FAE6008505FA /* IsHeCheating.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38FC37141A28FAE6008505FA /* IsHeCheating.xcdatamodeld */; };
@@ -18,6 +27,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		38620E411A2911C800FC089C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FC37021A28FAE6008505FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38620E3E1A2911C800FC089C;
+			remoteInfo = "IsHeCheating Watch App";
+		};
+		38620E4A1A2911C800FC089C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38FC37021A28FAE6008505FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38620E291A2911C700FC089C;
+			remoteInfo = "IsHeCheating WatchKit Extension";
+		};
 		38FC37271A28FAE6008505FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38FC37021A28FAE6008505FA /* Project object */;
@@ -27,7 +50,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		38620E531A2911C800FC089C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				38620E4C1A2911C800FC089C /* IsHeCheating WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		38620E2A1A2911C800FC089C /* IsHeCheating WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IsHeCheating WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38620E2C1A2911C800FC089C /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		38620E301A2911C800FC089C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38620E311A2911C800FC089C /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		38620E321A2911C800FC089C /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		38620E331A2911C800FC089C /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		38620E351A2911C800FC089C /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		38620E361A2911C800FC089C /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		38620E381A2911C800FC089C /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		38620E391A2911C800FC089C /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		38620E3B1A2911C800FC089C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38620E3F1A2911C800FC089C /* IsHeCheating Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IsHeCheating Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38620E451A2911C800FC089C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38620E461A2911C800FC089C /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		38620E481A2911C800FC089C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38FC370A1A28FAE6008505FA /* IsHeCheating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsHeCheating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FC370E1A28FAE6008505FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38FC370F1A28FAE6008505FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +97,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38620E271A2911C700FC089C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38620E2D1A2911C800FC089C /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38FC37071A28FAE6008505FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +122,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38620E2B1A2911C800FC089C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38620E2C1A2911C800FC089C /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38620E2E1A2911C800FC089C /* IsHeCheating WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				38620E321A2911C800FC089C /* InterfaceController.h */,
+				38620E331A2911C800FC089C /* InterfaceController.m */,
+				38620E351A2911C800FC089C /* NotificationController.h */,
+				38620E361A2911C800FC089C /* NotificationController.m */,
+				38620E381A2911C800FC089C /* GlanceController.h */,
+				38620E391A2911C800FC089C /* GlanceController.m */,
+				38620E3B1A2911C800FC089C /* Images.xcassets */,
+				38620E2F1A2911C800FC089C /* Supporting Files */,
+			);
+			path = "IsHeCheating WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		38620E2F1A2911C800FC089C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38620E301A2911C800FC089C /* Info.plist */,
+				38620E311A2911C800FC089C /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38620E431A2911C800FC089C /* IsHeCheating Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				38620E461A2911C800FC089C /* Interface.storyboard */,
+				38620E481A2911C800FC089C /* Images.xcassets */,
+				38620E441A2911C800FC089C /* Supporting Files */,
+			);
+			path = "IsHeCheating Watch App";
+			sourceTree = "<group>";
+		};
+		38620E441A2911C800FC089C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38620E451A2911C800FC089C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		38FC37011A28FAE6008505FA = {
 			isa = PBXGroup;
 			children = (
 				38FC370C1A28FAE6008505FA /* IsHeCheating */,
 				38FC37291A28FAE6008505FA /* IsHeCheatingTests */,
+				38620E2E1A2911C800FC089C /* IsHeCheating WatchKit Extension */,
+				38620E431A2911C800FC089C /* IsHeCheating Watch App */,
+				38620E2B1A2911C800FC089C /* Frameworks */,
 				38FC370B1A28FAE6008505FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +189,8 @@
 			children = (
 				38FC370A1A28FAE6008505FA /* IsHeCheating.app */,
 				38FC37261A28FAE6008505FA /* IsHeCheatingTests.xctest */,
+				38620E2A1A2911C800FC089C /* IsHeCheating WatchKit Extension.appex */,
+				38620E3F1A2911C800FC089C /* IsHeCheating Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +240,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38620E291A2911C700FC089C /* IsHeCheating WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38620E521A2911C800FC089C /* Build configuration list for PBXNativeTarget "IsHeCheating WatchKit Extension" */;
+			buildPhases = (
+				38620E261A2911C700FC089C /* Sources */,
+				38620E271A2911C700FC089C /* Frameworks */,
+				38620E281A2911C700FC089C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38620E421A2911C800FC089C /* PBXTargetDependency */,
+			);
+			name = "IsHeCheating WatchKit Extension";
+			productName = "IsHeCheating WatchKit Extension";
+			productReference = 38620E2A1A2911C800FC089C /* IsHeCheating WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		38620E3E1A2911C800FC089C /* IsHeCheating Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38620E511A2911C800FC089C /* Build configuration list for PBXNativeTarget "IsHeCheating Watch App" */;
+			buildPhases = (
+				38620E3D1A2911C800FC089C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IsHeCheating Watch App";
+			productName = "IsHeCheating Watch App";
+			productReference = 38620E3F1A2911C800FC089C /* IsHeCheating Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		38FC37091A28FAE6008505FA /* IsHeCheating */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38FC37301A28FAE6008505FA /* Build configuration list for PBXNativeTarget "IsHeCheating" */;
@@ -132,10 +280,12 @@
 				38FC37061A28FAE6008505FA /* Sources */,
 				38FC37071A28FAE6008505FA /* Frameworks */,
 				38FC37081A28FAE6008505FA /* Resources */,
+				38620E531A2911C800FC089C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				38620E4B1A2911C800FC089C /* PBXTargetDependency */,
 			);
 			name = IsHeCheating;
 			productName = IsHeCheating;
@@ -169,6 +319,12 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Tinkerz;
 				TargetAttributes = {
+					38620E291A2911C700FC089C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					38620E3E1A2911C800FC089C = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					38FC37091A28FAE6008505FA = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -193,11 +349,31 @@
 			targets = (
 				38FC37091A28FAE6008505FA /* IsHeCheating */,
 				38FC37251A28FAE6008505FA /* IsHeCheatingTests */,
+				38620E291A2911C700FC089C /* IsHeCheating WatchKit Extension */,
+				38620E3E1A2911C800FC089C /* IsHeCheating Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		38620E281A2911C700FC089C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38620E3C1A2911C800FC089C /* Images.xcassets in Resources */,
+				38620E401A2911C800FC089C /* IsHeCheating Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38620E3D1A2911C800FC089C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38620E471A2911C800FC089C /* Interface.storyboard in Resources */,
+				38620E491A2911C800FC089C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38FC37081A28FAE6008505FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +394,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38620E261A2911C700FC089C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38620E371A2911C800FC089C /* NotificationController.m in Sources */,
+				38620E341A2911C800FC089C /* InterfaceController.m in Sources */,
+				38620E3A1A2911C800FC089C /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38FC37061A28FAE6008505FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -240,6 +426,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		38620E421A2911C800FC089C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38620E3E1A2911C800FC089C /* IsHeCheating Watch App */;
+			targetProxy = 38620E411A2911C800FC089C /* PBXContainerItemProxy */;
+		};
+		38620E4B1A2911C800FC089C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38620E291A2911C700FC089C /* IsHeCheating WatchKit Extension */;
+			targetProxy = 38620E4A1A2911C800FC089C /* PBXContainerItemProxy */;
+		};
 		38FC37281A28FAE6008505FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38FC37091A28FAE6008505FA /* IsHeCheating */;
@@ -267,6 +463,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		38620E4D1A2911C800FC089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IsHeCheating WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38620E4E1A2911C800FC089C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "IsHeCheating WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38620E4F1A2911C800FC089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = IsHeCheating_WatchKit_Extension;
+				INFOPLIST_FILE = "IsHeCheating Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		38620E501A2911C800FC089C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = IsHeCheating_WatchKit_Extension;
+				INFOPLIST_FILE = "IsHeCheating Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 		38FC372E1A28FAE6008505FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,6 +652,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38620E511A2911C800FC089C /* Build configuration list for PBXNativeTarget "IsHeCheating Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38620E4F1A2911C800FC089C /* Debug */,
+				38620E501A2911C800FC089C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38620E521A2911C800FC089C /* Build configuration list for PBXNativeTarget "IsHeCheating WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38620E4D1A2911C800FC089C /* Debug */,
+				38620E4E1A2911C800FC089C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		38FC37051A28FAE6008505FA /* Build configuration list for PBXProject "IsHeCheating" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -416,6 +684,7 @@
 				38FC37321A28FAE6008505FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38FC37331A28FAE6008505FA /* Build configuration list for PBXNativeTarget "IsHeCheatingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +693,7 @@
 				38FC37351A28FAE6008505FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
